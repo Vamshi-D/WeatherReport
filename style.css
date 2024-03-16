@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main_page{
+    height:100vh ;
+    width:100vw ;
+    background-color:#333 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    background-color: #efefef;
+    height: 450px;
+    width: 350px;
+    box-shadow: 5px 5px 10px #efefef;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    height: 150px;
+}
+#description{
+
+}
+
+#search{
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+#weather_image{
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+#location{
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 2px solid gainsboro;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: none;
+}
+
+button{
+    height: 40px;
+    width: 52px;
+    position: absolute;
+    right: 25px;
+    border-radius: 0px 20px 20px 0px;
+    border: 2px solid gainsboro;
+
+
+    
+}
+
+
+
+#temperature{
+    position: relative;
+    left: 40px;
+    /* border: 2px solid; */
+    top: 43px;
+    left: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: larger;
+}
+#Humidity{
+    /* border: 2px solid; */
+    position: relative;
+    left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: larger;
+
+}
+
