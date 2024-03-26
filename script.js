@@ -26,6 +26,12 @@ let checkweatherDetails = async(city)=>{
     humidity.innerHTML=`${weather2.main.humidity}%`
     description.innerHTML=`${weather2.weather[0].description}`
 
+    switch(weather2.weather[0].description){
+
+        case haze:
+             
+    }
+
 }
 
 btn.addEventListener("click",()=>{

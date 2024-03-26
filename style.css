@@ -28,9 +28,7 @@
 img{
     height: 150px;
 }
-#description{
 
-}
 
 #search{
     width:100% ;
@@ -93,5 +91,20 @@ button{
     flex-direction: column;
     font-size: larger;
 
+}
+
+
+@media(max-width:350px){
+    #card{
+        height: 350px;
+        width: 250px;
+    }
+    #location{
+        height: 28px;
+        width: 200px;
+    }
+    button{
+        height: 28px;
+        width: 32px;
 }
 
